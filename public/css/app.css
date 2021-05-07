@@ -76,12 +76,10 @@ main h2 {
 .footer_top .col ul {
   list-style: none;
   color: #848d9b;
+  font-size: 15px;
 }
 .footer_top .col img {
   width: 70%;
-}
-.footer_top .col.col-1 {
-  font-size: 15px;
 }
 .footer_top .col.col-2 h4, .footer_top .col.col-3 h4 {
   font-size: 24px;
@@ -91,7 +89,6 @@ main h2 {
   padding: 10px 0;
 }
 .footer_top .col.col-2 li, .footer_top .col.col-3 li {
-  font-size: 15px;
   padding: 5px 0;
 }
 

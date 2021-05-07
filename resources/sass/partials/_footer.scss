@@ -7,14 +7,11 @@
     ul {
       list-style: none;
       color: $text_color_grey;
+      font-size: $text_small;
     }
 
     img {
       width: 70%;
-    }
-
-    &.col-1 {
-      font-size: $text_small;
     }
 
     &.col-2, &.col-3 {
@@ -27,7 +24,6 @@
       }
 
       li {
-        font-size: $text_small;
         padding: 5px 0;
       }
     }
