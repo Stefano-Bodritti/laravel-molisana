@@ -1,0 +1,41 @@
+.footer_top {
+  padding-top: 60px;
+  display: flex;
+
+  .col {
+    width: calc(100% / 3);
+    ul {
+      list-style: none;
+      color: $text_color_grey;
+    }
+
+    img {
+      width: 70%;
+    }
+
+    &.col-1 {
+      font-size: $text_small;
+    }
+
+    &.col-2, &.col-3 {
+      h4 {
+        font-size: $text_big;
+        font-weight: 600;
+        color: $text_color_grey;
+        text-transform: uppercase;
+        padding: 10px 0;
+      }
+
+      li {
+        font-size: $text_small;
+        padding: 5px 0;
+      }
+    }
+  }
+}
+
+.footer_bottom {
+  img {
+    width: 100%;
+  }
+}

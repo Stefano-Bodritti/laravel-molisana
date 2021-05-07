@@ -65,3 +65,36 @@ main h2 {
   width: 100%;
   display: block;
 }
+
+.footer_top {
+  padding-top: 60px;
+  display: flex;
+}
+.footer_top .col {
+  width: calc(100% / 3);
+}
+.footer_top .col ul {
+  list-style: none;
+  color: #848d9b;
+}
+.footer_top .col img {
+  width: 70%;
+}
+.footer_top .col.col-1 {
+  font-size: 15px;
+}
+.footer_top .col.col-2 h4, .footer_top .col.col-3 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #848d9b;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.footer_top .col.col-2 li, .footer_top .col.col-3 li {
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+.footer_bottom img {
+  width: 100%;
+}

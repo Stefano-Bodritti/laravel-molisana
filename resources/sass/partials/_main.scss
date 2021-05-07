@@ -7,7 +7,7 @@ main {
 
   h2 {
     color: $main_color;
-    font-size: 30px;
+    font-size: $text_bigger;
     font-weight: 400;
     text-transform: uppercase;
     margin: 10px 4px; 
