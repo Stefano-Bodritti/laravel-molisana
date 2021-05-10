@@ -1,9 +1,16 @@
 .footer_top {
   padding-top: 60px;
   display: flex;
+  flex-wrap: wrap;
 
   .col {
     width: calc(100% / 3);
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding: 0 20px;
+    }
+
     ul {
       list-style: none;
       color: $text_color_grey;
@@ -12,6 +19,7 @@
 
     img {
       width: 70%;
+      max-width: 300px;
     }
 
     &.col-2, &.col-3 {

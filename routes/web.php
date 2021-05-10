@@ -46,7 +46,6 @@ Route::get("/ultime-notizie", function() {
 Route::get("prodotti/{id}", function ($id) {
 
     $data = config('paste');
-
     $pasta = $data[$id];
 
     return view("prodotti", [
