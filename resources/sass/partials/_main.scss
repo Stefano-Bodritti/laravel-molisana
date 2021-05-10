@@ -1,8 +1,7 @@
-main {
+.section_bg {
   background-image: url("../images/fondo-pag-speciali.jpg");
   background-size: 75%;
   background-position: center;
-  margin-top: 15px;
   padding: 40px 0;
 
   h2 {
@@ -12,19 +11,19 @@ main {
     text-transform: uppercase;
     margin: 10px 4px; 
   }
-}
 
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    
+    .box {
+      width: calc(100% / 3);
+      padding: 4px;
   
-  .box {
-    width: calc(100% / 3);
-    padding: 4px;
-
-    img {
-      width: 100%;
-      display: block;
+      img {
+        width: 100%;
+        display: block;
+      }
     }
   }
 }
