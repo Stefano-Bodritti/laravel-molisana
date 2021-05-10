@@ -94,3 +94,30 @@ nav ul a.active {
 .footer_bottom img {
   width: 100%;
 }
+
+.product {
+  display: flex;
+  align-items: center;
+  background-color: #b7dae5;
+  color: #002d73;
+  padding: 40px 0;
+}
+.product h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.product img {
+  width: 100%;
+}
+.product .chevron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #dcedf2;
+  font-size: 36px;
+  height: 70px;
+  width: 40px;
+  border-radius: 5px;
+}

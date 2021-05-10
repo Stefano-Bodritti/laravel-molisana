@@ -1,0 +1,29 @@
+.product {
+  display: flex;
+  align-items: center;
+  background-color: $product_color;
+  color: $main_color;
+  padding: 40px 0;
+
+  h1 {
+    text-align: center;
+    font-size: $text_bigger;
+    font-weight: 600;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .chevron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #dcedf2;
+    font-size: 36px;
+    height: 70px;
+    width: 40px;
+    border-radius: 5px;
+  }
+}
