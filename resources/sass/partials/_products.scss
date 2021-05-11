@@ -26,5 +26,10 @@
     height: 70px;
     width: 40px;
     border-radius: 5px;
+
+    a {
+      color: inherit;
+      padding: 10px;
+    }
   }
 }
